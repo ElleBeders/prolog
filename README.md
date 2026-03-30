@@ -31,6 +31,7 @@ hj
 ### Тестирование
 
 Скриншоты результата работы программы
+<img width="382" height="627" alt="F2" src="https://github.com/user-attachments/assets/6c7261f4-b9bc-4c01-8648-0623844a2545" />
 
 
 
@@ -49,6 +50,7 @@ hj
 ### Тестирование
 
 Скриншоты результата работы программы
+<img width="892" height="674" alt="F3" src="https://github.com/user-attachments/assets/3b8ba260-f265-48de-ab89-1c15f7d48e7e" />
 
 
 
@@ -87,6 +89,7 @@ hj
 ### Тестирование
 
 Скриншоты результата работы программы
+<img width="224" height="203" alt="F4" src="https://github.com/user-attachments/assets/237e9335-61dc-4b58-8b1d-00c91ca86dcd" />
 
 
 
