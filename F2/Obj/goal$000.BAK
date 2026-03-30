@@ -1,0 +1,24 @@
+DOMAINS
+    number = integer
+    list = number*
+
+PREDICATES
+    nondeterm count_ending_with(list, number, number)
+
+CLAUSES
+count_ending_with([], _, 0).               
+count_ending_with([H | T], Digit, Count) :- 
+    LastDigit is H mod 10,
+    LastDigit =:= Digit,
+    count_ending_with(T, Digit, RestCount),
+    Count is RestCount + 1.
+count_ending_with([_ | T], Digit, Count) :-   
+    count_ending_with(T, Digit, Count).
+
+GOAL
+    write("Vvod list (primer: [15,23,45])"), nl, 
+    readterm(list, List),
+    write("Vvod digit: "),
+    readint(Digit),
+    count_ending_with(List, Digit, Result),
+    write("Res: "), write(Result), nl.
