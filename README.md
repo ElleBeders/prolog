@@ -15,6 +15,7 @@ hj
 ### Тестирование
 
 Скриншоты результата работы программы
+<img width="208" height="163" alt="F1" src="https://github.com/user-attachments/assets/59a3cef1-e0d7-4aa8-b891-7ba668d52cd9" />
 
 
 
